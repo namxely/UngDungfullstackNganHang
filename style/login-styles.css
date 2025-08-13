@@ -1,0 +1,256 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+input,
+textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.w-button {
+  color: #fff;
+  line-height: inherit;
+  cursor: pointer;
+  background-color: #3898ec;
+  border: 0;
+  border-radius: 0;
+  padding: 9px 15px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.w-input,
+.w-select {
+  width: 100%;
+  height: 38px;
+  color: #333;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  padding: 8px 12px;
+  font-size: 14px;
+  line-height: 1.42857;
+  display: block;
+}
+
+.w-form {
+  margin: 0 0 15px;
+}
+
+.w-form-label {
+  cursor: pointer;
+  margin-bottom: 0;
+  font-weight: normal;
+  display: inline-block;
+  color: rgba(14, 2, 32, 0.68);
+}
+
+.w-container {
+  max-width: 920px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (max-width: 991px) {
+  .w-container {
+    max-width: 728px;
+  }
+}
+
+.w-checkbox-input {
+  float: left;
+  margin: 4px 0 0 -20px;
+  line-height: normal;
+}
+
+h1 {
+  margin-top: 20px;
+  margin-bottom: 15px;
+  font-size: 44px;
+  font-weight: 400;
+  line-height: 62px;
+}
+
+a {
+  color: #1a1b1f;
+  text-decoration: underline;
+  transition: opacity 0.2s;
+  display: block;
+}
+
+a:hover {
+  color: #32343a;
+}
+
+a:active {
+  color: #43464d;
+}
+
+label {
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 20px;
+  display: block;
+}
+
+.navbar-logo-left {
+  background-color: #fff;
+  box-shadow: 0 1px 600px 10px rgba(3, 83, 164, 0.31);
+}
+
+.navbar-logo-left-container {
+  z-index: 5;
+  width: 1030px;
+  max-width: 100%;
+  background-color: rgba(0, 0, 0, 0);
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px 20px;
+}
+
+.navbar-logo-left-container.shadow-three {
+  width: 100%;
+  max-width: 1200px;
+  object-fit: fill;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 0;
+  padding-bottom: 0;
+  display: flex;
+}
+
+.container-3 {
+  width: 100%;
+  max-width: 1200px;
+  flex-flow: row;
+  flex: 1;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.image-3 {
+  padding-top: 6px;
+}
+
+.heading {
+  color: #061a40;
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 30px;
+  line-height: 44px;
+}
+
+.container-r {
+  max-width: 700px;
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 5vh;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.field-label {
+  color: #003559;
+  margin-bottom: 5px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.text-field-2 {
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.submit-button {
+  width: 100%;
+  text-transform: uppercase;
+  object-fit: fill;
+  background-color: #006daa;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.link {
+  color: #0353a4;
+}
+
+.section-3 {
+  max-width: 100%;
+  object-fit: fill;
+  margin-top: 20vh;
+  margin-bottom: 20vh;
+  position: static;
+}
+
+.heading-3 {
+  color: rgba(26, 27, 31, 0.68);
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 15px;
+  line-height: 15px;
+}
+
+.div-block-5 {
+  flex-direction: row;
+  justify-content: space-between;
+  display: flex;
+}
+
+.div-block-6,
+.div-block-7,
+div-block-11 {
+  max-width: 48%;
+  margin-right: 0;
+  display: block;
+}
+
+.div-block-8 {
+  min-width: 30px;
+  justify-content: space-between;
+  display: flex;
+}
+
+.div-block-9 {
+  max-width: 40%;
+  margin-right: 10px;
+}
+
+.div-block-10 {
+  max-width: 100%;
+  display: block;
+}
+
+.form {
+  max-width: 100%;
+  min-width: 100%;
+}
+
+.div-block-12 {
+  max-width: 70%;
+  padding-top: 22.5px;
+  padding-left: 20px;
+  display: flex;
+}
+
+.container-l {
+  max-width: 600px;
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 5vh;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
